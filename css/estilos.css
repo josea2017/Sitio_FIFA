@@ -233,3 +233,88 @@ footer{
 	width: 100%;
 	color: #ffffff;
 }
+
+.h1_equipos{
+	margin-left: 35%;
+}
+
+.africa_subtitulo{
+	margin-left: 8%;
+}
+
+.africa td{
+	padding-left: 120px;
+	padding-bottom: 30px;
+}
+
+.africa td p{
+	display: inline-flex;
+	margin-left: -90px;
+
+}
+
+.asia_subtitulo{
+	margin-left: 8%;
+}
+
+.asia td{
+	padding-left: 120px;
+	padding-bottom: 30px;
+}
+
+.asia td p{
+	display: inline-flex;
+	margin-left: -95px;
+
+}
+
+.europa_subtitulo{
+	margin-left: 8%;
+}
+
+.europa td{
+	padding-left: 120px;
+	padding-bottom: 30px;
+}
+
+.europa td .belgica{
+	width: 128px;
+	height: 100px;
+	margin-bottom: 13px;
+}
+
+.europa td p{
+	display: inline-flex;
+	margin-left: -90px;
+
+}
+
+.centroamerica_subtitulo{
+	margin-left: 8%;
+}
+
+.centroamerica td{
+	padding-left: 120px;
+	padding-bottom: 30px;
+}
+
+.centroamerica td p{
+	display: inline-flex;
+	margin-left: -90px;
+
+}
+
+.sudamerica_subtitulo{
+	margin-left: 8%
+}
+
+.sudamerica td{
+	padding-left: 120px;
+	padding-bottom: 30px;
+}
+
+.sudamerica td p{
+	display: inline-flex;
+	margin-left: -90px;
+
+}
