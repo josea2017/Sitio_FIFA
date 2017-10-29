@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link href="imagenes/menu/fifa.jpg.png" type="image/x-icon" rel="shortcut icon">
 	<title>La FIFA - Inicio</title>
 </head>
 <body>
@@ -11,10 +12,12 @@
 		<label for="btn-menu"><img src="imagenes/menu/menu.png"></label>
 		<nav class="menu">
 			<ul>
+
 				<li><a href="index.html">Inicio</a></li>
 				<li><a href="equipos.html">Equipos</a></li>
 				<li><a href="index.html">Llaves</a></li>
 				<li><a href="index.html">Calendario</a></li>
+				<li class="fifa"><a href=""><img class="imagen_fifa" src="imagenes/menu/fifa.jpg"></a></li>
 			</ul>
 		</nav>
 	</header>
@@ -27,11 +30,74 @@
 		<img  class="imagen_panama_celebracion" src="imagenes/index/panama_celebracion.jpg">
 		<h3 class="info_panama">La alegría se apodero del Romel Fernandez, al lograr Panamá clasificar por primera ocación a un mundial mayor masculino de futbol.</h3>
 		<img  class="imagen_fondo2" src="imagenes/cabezera/fondo.png">
+
+	<table class="videos" border="0">
+		<tr>
+      		<th class="resumen_uefa">Resumen UEFA</th>
+      		<th class="chile_eliminado">Chile eliminado</th>
+    	</tr>
+    	<tr>
+      		<td>
+      		<video class="video_uefa" controls="controls">
+      			<source src="videos/index/eliminatoria_uefa.mp4" type="video/mp4">
+      		</video>
+      		</td>
+      		<td>
+      		<video class="video_chile_eliminado" controls="controls">
+      			<source src="videos/index/chile_eliminado.mp4" type="video/mp4">
+      		</video>
+      		</td>	
+    	</tr>
+ 
+  	</table>
+
+  	<table class="equipos_clasificados" border="0">
+    	<caption class="titulo">Equipos clasificados a Rusia 2018</caption>
+    	<tr class="africa">
+    		<td>ÁFRICA:</td>
+      		<td>Egipto -</td>
+      		<td>Nigeria</td>
+      	</tr>
+      	<tr>
+      		<td>ASIA:</td>
+      		<td>Arabia Saudí -</td>
+      		<td>Irán -</td>
+      		<td>Japón</td>
+    	</tr>
+    	<tr>
+    		<td>EUROPA:</td>
+      		<td>Alemania -</td>
+      		<td>Bélgica -</td>
+      		<td>España -</td>
+      		<td>Francia -</td>
+      		<td>Inglaterra -</td>
+      		<td>Islandia -</td>
+      		<td>Polonia -</td>
+      		<td>Portugal -</td>
+      		<td>Rusia -</td>
+      		<td>Serbia</td>
+    	</tr>
+    	<tr>
+    		<td>CENTRO AMÉRICA Y CARIBE:</td>
+      		<td>Costa Rica -</td>
+      		<td>México -</td>
+      		<td>Panamá</td>
+    	</tr>
+    	<tr>
+    		<td>SUDAMÉRICA:</td>
+      		<td>Argentina -</td>
+      		<td>Brasil -</td>
+      		<td>Colombia -</td>
+      		<td>Uruguay</td>
+    	</tr>
+    
+  	</table>
 	</div>
 
+	<footer>
+		Copyright&copy 1994-2018 FIFA. Reservados todos los derechos
+	</footer>
 
-
-	
 
 </body>
 </html>
