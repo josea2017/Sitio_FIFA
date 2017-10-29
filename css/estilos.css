@@ -52,6 +52,23 @@ header label:hover{
 	text-decoration: none;
 }
 
+.menu .fifa{
+	display: block;
+	width: 0px;
+
+}
+
+.menu .fifa .imagen_fifa{
+	display: block;
+	width: 150px;
+	height: 32px;
+	margin-left: -10px;
+	margin-top: -10px;
+
+}
+
+
+
 @media(max-width: 768px){
 	header label{
 		display: block;
@@ -154,4 +171,65 @@ hr{
 	color: #D8D8D8;
 	top: 1285px;
  	left:15%;
+}
+
+.videos .video_uefa{
+	position: absolute;
+	top: 1450px;
+	margin-left: 15%;
+}
+.resumen_uefa{
+	position: absolute;
+	top: 1425px;
+	margin-left: 25%;
+	background: #0B3B0B;
+	color: #D8D8D8;
+}
+
+
+.video_chile_eliminado{
+	position: absolute;
+	top: 1340px;
+	margin-left: 50%;
+	width: 500px;
+	height: 500px;
+}
+
+.chile_eliminado{
+	position: absolute;
+	top: 1420px;
+	margin-left: 65%;
+	background: #0B3B0B;
+	color: #D8D8D8;
+}
+
+.equipos_clasificados{
+	position: absolute;
+	top: 1900px;
+	margin-left: 22%;
+	background: #0B3B0B;
+	color: #ffffff;
+	border-collapse: separate;
+    border-spacing: 10px 10px;
+
+}
+
+.equipos_clasificados tr{
+	display: block;
+	border-top: 1px solid #ffffff;
+	border-bottom: 0px solid #ffffff;
+}
+
+.equipos_clasificados .titulo{
+	display: block;
+	font-weight: bold;
+
+}
+
+footer{
+	background-color: #000000;
+	line-height: 4;
+	text-align: center;
+	width: 100%;
+	color: #ffffff;
 }
