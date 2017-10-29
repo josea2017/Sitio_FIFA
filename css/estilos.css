@@ -102,3 +102,56 @@ header label:hover{
 hr{
 	width: 85%;
 }
+
+
+.fondo .imagen_fondo{
+	width: 1360px;
+	height: 1100px;
+	margin-left: 7%;
+	margin-right: 7%;
+}
+.fondo .imagen_fondo2{
+	width: 1360px;
+	height: 1100px;
+	margin-left: 7%;
+	margin-right: 7%;
+}
+
+.fondo{
+	position: relative;
+}
+
+.fondo .imagen_islandia_celebracion{
+	position:absolute;
+ 	top:0px;
+ 	width: 1100px;
+ 	height: 600px;
+ 	margin-left: 15%;
+ 	margin-right: 12%;
+ 	border:none;
+
+}
+
+.info_islandia{
+	position: absolute;
+	background: #0B3B0B;
+	color: #D8D8D8;
+	top:587px;
+ 	left:15%;
+}
+
+.imagen_panama_celebracion{
+	position:absolute;
+ 	top:700px;
+ 	width: 1100px;
+ 	height: 600px;
+ 	margin-left: 15%;
+}
+
+.info_panama{
+	position: absolute;
+	background: #0B3B0B;
+	color: #D8D8D8;
+	top: 1285px;
+ 	left:15%;
+}
