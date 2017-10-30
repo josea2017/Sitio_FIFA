@@ -234,6 +234,13 @@ footer{
 	color: #ffffff;
 }
 
+.fondo_equipos{
+	display: block;
+	width: 90%;
+	background: #E3EAF1;
+	margin-left: 5%;
+}
+
 .h1_equipos{
 	margin-left: 35%;
 }
