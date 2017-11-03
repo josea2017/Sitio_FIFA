@@ -126,14 +126,14 @@ h1{
 	
 }
 
-.nigeria_entrenador{
+.arabia_entrenador{
 	display: flex;
 	width: 200px;
 	margin-left: 13%;
 
 }
 
-.plantilla_nigeria{
+.plantilla_arabia{
 	display: flex;
 	width: 80%;
 	margin-left: 13%;
@@ -191,11 +191,26 @@ h1{
 	font-size: 20px;
 }
 
+.defensas .defensa_derecho .{
+	margin-left: 55px;
+	color: #E5F150;
+	font-size: 20px;
+}
+
 .cancha .contensiones{
 	display: flex;
 	flex-direction: column;
-	margin-left: 30px;
-	margin-top: 450px;
+	margin-left: 10px;
+	margin-top: 300px;
+	color: #E5F150;
+	font-size: 20px;
+}
+
+.cancha .contensiones .contension_derecho{
+	display: flex;
+	flex-direction: column;
+	margin-left: 10px;
+	margin-top: 300px;
 	color: #E5F150;
 	font-size: 20px;
 }
@@ -204,7 +219,7 @@ h1{
 .cancha .media .creativo_izquierdo{
 	display: flex;
 	flex-direction: column;
-	margin-left: 100px;
+	margin-left: 20px;
 	margin-top: 200px;
 	color: #E5F150;
 	font-size: 20px;
@@ -213,7 +228,7 @@ h1{
 .cancha .media .creativo{
 	display: flex;
 	flex-direction: column;
-	margin-left: 100px;
+	margin-left: 20px;
 	margin-top: 250px;
 	color: #E5F150;
 	font-size: 20px;
@@ -222,7 +237,7 @@ h1{
 .cancha .media .creativo_derecho{
 	display: flex;
 	flex-direction: column;
-	margin-left: 100px;
+	margin-left: 20px;
 	margin-top: 200px;
 	color: #E5F150;
 	font-size: 20px;
@@ -237,17 +252,12 @@ h1{
 	font-size: 20px;
 }
 
-.delanteros .delantero_izquierdo{
-	margin-left: 100PX;
-	margin-top: 100px;
+.delanteros .delantero{
+	margin-left: 20PX;
+	margin-top: 220px;
 }
 
-.delanteros .delantero_derecho{
-	margin-top: 160px;
-	margin-left: 100PX;
-}
-
-.plantilla_egipto{
+.plantilla_arabia{
 	background: #E3EAF1;
 }
 
