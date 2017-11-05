@@ -1,0 +1,268 @@
+body{
+	margin: 0;
+	font-family: sans-serif;
+	/*background: #e6e6e6;*/
+}
+
+
+header{
+	width: 100%;
+	height: 50px;
+	background: #000000;
+}
+
+#btn-menu{
+	display: none;
+}
+
+header label{
+	display: none;
+	width: 30px;
+	height: 30px;
+	padding: 0px;
+	border-right: 1px solid #000000;
+}
+
+header label:hover{
+	cursor: pointer;
+	background: rgba(192, 192, 192, 0.5);
+	opacity: 0.8;
+}
+
+.menu ul{
+	margin: 0;
+	list-style: none;
+	padding: 0;
+	display: flex;
+}
+
+.menu li:hover{
+	background: rgba(192, 192, 192, 0.5);
+
+}
+
+.menu li{
+		border-right: 1px solid #fff;
+}
+
+.menu li a{
+	display: block;
+	padding: 15px 20px;
+	color: #FFF;
+	text-decoration: none;
+}
+
+.menu .fifa{
+	display: block;
+	width: 0px;
+
+}
+
+.menu .fifa .imagen_fifa{
+	display: block;
+	width: 150px;
+	height: 32px;
+	margin-left: -10px;
+	margin-top: -10px;
+
+}
+
+
+
+@media(max-width: 768px){
+	header label{
+		display: block;
+	}
+
+	.menu{
+		position: absolute;
+		background: #000000;
+		width: 70%;
+		margin-top: 20px;
+		margin-left: -70%;
+		transition: all 0.5s;
+	}
+
+	.menu ul{
+		flex-direction: column;
+	}
+
+	.menu li{
+		border-top: 1px solid #fff;
+	}
+
+	#btn-menu:checked ~ .menu{
+		margin:0;
+	}
+	
+	.imagen_cabecera{
+		background: #ccc;
+		width: 500px;
+	}
+}
+
+
+.cabezera{
+	width: 50%;
+	height: 20%;
+	margin: auto;
+	display: block;
+}
+
+.imagen_cabezera{
+	width: 100%;
+	height: 200px;
+	margin: auto;
+	display: block;
+}
+
+hr{
+	width: 85%;
+}
+h1{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	
+}
+
+.brasil_entrenador{
+	display: flex;
+	width: 200px;
+	margin-left: 13%;
+
+}
+
+.plantilla_brasil{
+	display: flex;
+	width: 80%;
+	margin-left: 13%;
+}
+
+.cancha{
+	display: flex;
+}
+
+.cancha_futbol{
+	margin-top: 2%;
+	margin-left: 5%;
+	width: 90%;
+	height: 40%;
+}
+
+.cancha .portero{
+	display: flex;
+	margin-top: 450px;
+	margin-left: -1400px;
+	height: 40px;
+	color: #E5F150;
+	font-size: 20px;
+}
+
+.cancha .defensas{
+	display: flex;
+	flex-direction: column;
+	color: #E5F150;
+	font-size: 20px;
+	margin-left: 0px;
+	margin-top: 200px;
+}
+
+
+.defensas .defensa_izquierdo{
+	margin-top: 0px;
+	margin-left: 200px;
+	color: #E5F150;
+	font-size: 20px;
+}
+.defensas .defensa_izquierdo1{
+	margin-top: 100px;
+	margin-left: 100px;
+	color: #E5F150;
+	font-size: 20px;
+}
+
+
+.defensas .defensa_derecho1{
+	margin-top: 200px;
+	margin-left: 100px;
+	color: #E5F150;
+	font-size: 20px;
+}
+
+.defensas .defensa_derecho{
+	margin-top: 120px;
+	margin-left: 200px;
+	color: #E5F150;
+	font-size: 20px;
+}
+
+
+.cancha .contensiones{
+	display: flex;
+	flex-direction: column;
+	margin-left: 0px;
+	margin-top: 450px;
+	color: #E5F150;
+	font-size: 20px;
+}
+
+.cancha .media{
+	display: flex;
+	flex-direction: column;
+	margin-left: 170px;
+	margin-top: 300px;
+	color: #E5F150;
+	font-size: 20px;
+}
+
+.cancha .media .media_derecho{
+	display: flex;
+	flex-direction: column;
+	margin-left: 10px;
+	margin-top: 250px;
+	color: #E5F150;
+	font-size: 20px;
+}
+
+
+.cancha .delanteros{
+	display: flex;
+	flex-direction: column;
+	margin-left: 200px;
+	margin-top: 250px;
+	color: #E5F150;
+	font-size: 20px;
+}
+
+.cancha .delanteros .delantero_central{
+	display: flex;
+	flex-direction: column;
+	margin-left: -150px;
+	margin-top: 150px;
+	color: #E5F150;
+	font-size: 20px;
+}
+
+
+.cancha .delanteros .delantero_derecho{
+	display: flex;
+	flex-direction: column;
+	margin-left: -50px;
+	margin-top: 150px;
+	color: #E5F150;
+	font-size: 20px;
+}
+
+
+.plantilla_brasil{
+	background: #E3EAF1;
+}
+
+footer{
+	background-color: #000000;
+	line-height: 4;
+	text-align: center;
+	width: 100%;
+	color: #ffffff;
+}
