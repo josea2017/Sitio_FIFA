@@ -1,0 +1,507 @@
+body{
+	margin: 0;
+	font-family: sans-serif;
+	/*background: #e6e6e6;*/
+}
+
+
+header{
+	width: 100%;
+	height: 50px;
+	background: #000000;
+}
+
+#btn-menu{
+	display: none;
+}
+
+header label{
+	display: none;
+	width: 30px;
+	height: 30px;
+	padding: 0px;
+	border-right: 1px solid #000000;
+}
+
+header label:hover{
+	cursor: pointer;
+	background: rgba(192, 192, 192, 0.5);
+	opacity: 0.8;
+}
+
+.menu ul{
+	margin: 0;
+	list-style: none;
+	padding: 0;
+	display: flex;
+}
+
+.menu li:hover{
+	background: rgba(192, 192, 192, 0.5);
+
+}
+
+.menu li{
+		border-right: 1px solid #fff;
+}
+
+.menu li a{
+	display: block;
+	padding: 15px 20px;
+	color: #FFF;
+	text-decoration: none;
+}
+
+.menu .fifa{
+	display: block;
+	width: 0px;
+
+}
+
+.menu .fifa .imagen_fifa{
+	display: block;
+	width: 150px;
+	height: 32px;
+	margin-left: -10px;
+	margin-top: -10px;
+
+}
+
+
+
+@media(max-width: 768px){
+	header label{
+		display: block;
+	}
+
+	.menu{
+		position: absolute;
+		background: #000000;
+		width: 70%;
+		margin-top: 20px;
+		margin-left: -70%;
+		transition: all 0.5s;
+	}
+
+	.menu ul{
+		flex-direction: column;
+	}
+
+	.menu li{
+		border-top: 1px solid #fff;
+	}
+
+	#btn-menu:checked ~ .menu{
+		margin:0;
+	}
+	
+	.imagen_cabecera{
+		background: #ccc;
+		width: 500px;
+	}
+}
+
+
+.cabezera{
+	width: 50%;
+	height: 20%;
+	margin: auto;
+	display: block;
+}
+
+.imagen_cabezera{
+	width: 100%;
+	height: 200px;
+	margin: auto;
+	display: block;
+}
+
+hr{
+	width: 85%;
+}
+
+
+.fondo .imagen_fondo{
+	width: 85%;
+	height: 1100px;
+	margin-left: 7%;
+	margin-right: 7%;
+}
+
+.fondo{
+	position: relative;
+}
+
+.fondo .imagen_llaves{
+	display: flex;
+	position: absolute;
+	width: 85%;
+	height: 100%;
+	top: 0px;
+	margin-left: 7%;
+	margin-right: 7%;
+	border: none;
+}
+
+.costarica_rusia{
+	display: inline;
+	position: absolute;
+	top: 330px;
+	margin-left: 11%;
+	margin-right: 7%;
+}
+
+.costarica_rusia .costarica_oct{
+	width: 40px;
+	height: 40px;
+}
+.costarica_rusia .rusia_oct{
+	width: 50px;
+	height: 50px;
+}
+.costarica_rusia input{
+	display: flex;
+	margin-top: -35px;
+	margin-left: 55px;
+	width: 70px;
+}
+
+.panama_inglaterra{
+	display: inline;
+	position: absolute;
+	top: 465px;
+	margin-left: 11%;
+	margin-right: 7%;
+}
+.panama_inglaterra .panama_oct{
+	width: 40px;
+	height: 40px;
+}
+.panama_inglaterra .inglaterra_oct{
+	width: 40px;
+	height: 40px;
+}
+.panama_inglaterra input{
+	display: flex;
+	margin-top: -35px;
+	margin-left: 55px;
+	width: 70px;
+}
+
+.francia_alemania{
+	display: inline;
+	position: absolute;
+	top: 590px;
+	margin-left: 11%;
+	margin-right: 7%;
+}
+.francia_alemania .francia_oct{
+	width: 40px;
+	height: 40px;
+}
+.francia_alemania .alemania_oct{
+	width: 40px;
+	height: 40px;
+}
+.francia_alemania input{
+	display: flex;
+	margin-top: -35px;
+	margin-left: 55px;
+	width: 70px;
+}
+
+.nigeria_japon{
+	display: inline;
+	position: absolute;
+	top: 720px;
+	margin-left: 11%;
+	margin-right: 7%;
+}
+.nigeria_japon .nigeria_oct{
+	width: 40px;
+	height: 40px;
+}
+.nigeria_japon .japon_oct{
+	width: 40px;
+	height: 40px;
+}
+.nigeria_japon input{
+	display: flex;
+	margin-top: -35px;
+	margin-left: 55px;
+	width: 70px;
+}
+
+.corea_polonia{
+	display: inline;
+	position: absolute;
+	top: 855px;
+	margin-left: 11%;
+	margin-right: 7%;
+}
+.corea_polonia .corea_oct{
+	width: 40px;
+	height: 40px;
+}
+.corea_polonia .polonia_oct{
+	width: 40px;
+	height: 40px;
+}
+.corea_polonia input{
+	display: flex;
+	margin-top: -35px;
+	margin-left: 55px;
+	width: 70px;
+}
+
+.espana_argentina{
+	display: inline;
+	position: absolute;
+	top: 980px;
+	margin-left: 11%;
+	margin-right: 7%;
+}
+.espana_argentina .espana_oct{
+	width: 40px;
+	height: 40px;
+}
+.espana_argentina .argentina_oct{
+	width: 40px;
+	height: 40px;
+}
+.espana_argentina input{
+	display: flex;
+	margin-top: -35px;
+	margin-left: 55px;
+	width: 70px;
+}
+
+.brasil_islandia{
+	display: inline;
+	position: absolute;
+	top: 1110px;
+	margin-left: 11%;
+	margin-right: 7%;
+}
+.brasil_islandia .brasil_oct{
+	width: 40px;
+	height: 40px;
+}
+.brasil_islandia .islandia_oct{
+	width: 40px;
+	height: 40px;
+}
+.brasil_islandia input{
+	display: flex;
+	margin-top: -35px;
+	margin-left: 55px;
+	width: 70px;
+}
+
+.belgica_uruguay{
+	display: inline;
+	position: absolute;
+	top: 1245px;
+	margin-left: 11%;
+	margin-right: 7%;
+}
+.belgica_uruguay .belgica_oct{
+	width: 40px;
+	height: 40px;
+}
+.belgica_uruguay .uruguay_oct{
+	width: 40px;
+	height: 40px;
+}
+.belgica_uruguay input{
+	display: flex;
+	margin-top: -35px;
+	margin-left: 55px;
+	width: 70px;
+}
+
+.costarica_panama{
+	display: inline;
+	position: absolute;
+	top: 400px;
+	margin-left: 28%;
+	margin-right: 7%;
+}
+.costarica_panama .costarica_cuart{
+	width: 70px;
+	height: 50px;
+}
+.costarica_panama .panama_cuart{
+	width: 70px;
+	height: 50px;
+}
+.costarica_panama input{
+	display: flex;
+	margin-top: -35px;
+	margin-left: 90px;
+	width: 60px;
+}
+
+.alemania_nigeria{
+	display: inline;
+	position: absolute;
+	top: 660px;
+	margin-left: 28%;
+	margin-right: 7%;
+}
+.alemania_nigeria .alemania_cuart{
+	width: 70px;
+	height: 50px;
+}
+.alemania_nigeria .nigeria_cuart{
+	width: 70px;
+	height: 50px;
+}
+.alemania_nigeria input{
+	display: flex;
+	margin-top: -35px;
+	margin-left: 90px;
+	width: 60px;
+}
+
+.corea_espana{
+	display: inline;
+	position: absolute;
+	top: 920px;
+	margin-left: 28%;
+	margin-right: 7%;
+}
+.corea_espana .corea_cuart{
+	width: 70px;
+	height: 50px;
+}
+.corea_espana .espana_cuart{
+	width: 70px;
+	height: 50px;
+}
+.corea_espana input{
+	display: flex;
+	margin-top: -35px;
+	margin-left: 90px;
+	width: 60px;
+}
+
+.brasil_uruguay{
+	display: inline;
+	position: absolute;
+	top: 1175px;
+	margin-left: 28%;
+	margin-right: 7%;
+}
+.brasil_uruguay .brasil_cuart{
+	width: 70px;
+	height: 50px;
+}
+.brasil_uruguay .uruguay_cuart{
+	width: 70px;
+	height: 50px;
+}
+.brasil_uruguay input{
+	display: flex;
+	margin-top: -35px;
+	margin-left: 90px;
+	width: 60px;
+}
+
+.costarica_alemania{
+	display: inline;
+	position: absolute;
+	top: 520px;
+	margin-left: 44%;
+	margin-right: 7%;
+}
+.costarica_alemania .costarica_semi{
+	width: 70px;
+	height: 50px;
+}
+.costarica_alemania .alemania_semi{
+	width: 70px;
+	height: 50px;
+}
+.costarica_alemania input{
+	display: flex;
+	margin-top: -35px;
+	margin-left: 90px;
+	width: 50px;
+}
+
+.espana_uruguay{
+	display: inline;
+	position: absolute;
+	top: 1060px;
+	margin-left: 44%;
+	margin-right: 7%;
+}
+.espana_uruguay .espana_semi{
+	width: 70px;
+	height: 50px;
+}
+.espana_uruguay .uruguay_semi{
+	width: 70px;
+	height: 50px;
+}
+.espana_uruguay input{
+	display: flex;
+	margin-top: -35px;
+	margin-left: 90px;
+	width: 50px;
+}
+
+.alemania_espana{
+	display: inline;
+	position: absolute;
+	top: 820px;
+	margin-left: 58%;
+	margin-right: 7%;
+}
+.alemania_espana .alemania_tercer{
+	width: 70px;
+	height: 50px;
+}
+.alemania_espana .espana_tercer{
+	width: 70px;
+	height: 50px;
+}
+.alemania_espana input{
+	display: flex;
+	margin-top: -35px;
+	margin-left: 90px;
+	width: 50px;
+}
+
+.costarica_uruguay{
+	display: inline;
+	position: absolute;
+	top: 750px;
+	margin-left: 73%;
+	margin-right: 7%;
+}
+.costarica_uruguay .costarica_final{
+	width: 120px;
+	height: 100px;
+}
+.costarica_uruguay .uruguay_final{
+	margin-top: 70px;
+	width: 120px;
+	height: 100px;
+}
+.costarica_uruguay input{
+	display: flex;
+	margin-top: -55px;
+	margin-left: 125px;
+	width: 50px;
+}
+
+
+footer{
+	background-color: #000000;
+	line-height: 4;
+	text-align: center;
+	width: 100%;
+	color: #ffffff;
+}
