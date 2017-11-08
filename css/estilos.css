@@ -203,7 +203,7 @@ hr{
 	color: #D8D8D8;
 }
 
-.equipos_clasificados{
+.fondo .equipos_clasificados{
 	position: absolute;
 	top: 1900px;
 	margin-left: 22%;
@@ -237,7 +237,7 @@ footer{
 .fondo_equipos{
 	display: block;
 	width: 90%;
-	background: #E3EAF1;
+	background: #D4D4D4;
 	margin-left: 5%;
 }
 
